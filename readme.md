@@ -1,5 +1,4 @@
 
-```markdown
 # NLToSQL - Natural Language to SQL Query Tool
 
 NLToSQL is a tool that converts natural language into SQL query statements, designed to help non-technical users interact with databases through natural language and lower the barrier to database querying.
@@ -17,10 +16,7 @@ This project is based on natural language processing technology that can underst
 - 🎯 **High Accuracy**: Based on deep learning models to provide accurate query conversion
 
 ## Technical Architecture
-
-
 ![architecture.png](assets/architecture.png)
-
 - Natural Language Processing Engine
 - Semantic Parsing Module
 - SQL Syntax Generator
