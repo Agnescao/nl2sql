@@ -18,8 +18,7 @@ This project is based on natural language processing technology that can underst
 
 ## Technical Architecture
 
-![img_3.png](img_3.png)
-
+![architecture.png](assets/architecture.png)
 - Natural Language Processing Engine
 - Semantic Parsing Module
 - SQL Syntax Generator
