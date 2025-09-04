@@ -1,0 +1,32 @@
+在 PyCharm 中，有几种快捷键可以快速深入到方法的实现细节：
+
+## 基本导航快捷键
+
+1. **跳转到定义 (Go to Definition)**
+   - `Ctrl + 鼠标左键点击` - 最常用的方式，直接点击方法名
+   - `Ctrl + B` - 将光标放在方法名上，按下此快捷键
+
+2. **跳转到声明 (Go to Declaration)**
+   - `Ctrl + Shift + B` - 跳转到方法的声明处
+
+3. **快速查看定义 (Quick Definition)**
+   - `Ctrl + Shift + I` - 在不离开当前位置的情况下快速查看方法实现
+
+4. **查看实现 (Go to Implementation)**
+   - `Ctrl + Alt + B` - 查看接口或抽象方法的具体实现
+
+## 其他实用导航技巧
+
+5. **查看方法调用层次**
+   - `Ctrl + Alt + H` - 显示方法调用层次结构
+
+6. **查找用法 (Find Usages)**
+   - `Alt + F7` - 查找方法在项目中的所有使用位置
+
+7. **文件结构导航**
+   - `Ctrl + F12` - 打开当前文件的结构视图，可以快速定位到方法
+
+8. **后退/前进**
+   - `Ctrl + Alt + ←` / `Ctrl + Alt + →` - 在导航历史中前后移动
+
+对于您正在查看的 [app.py](file://D:\dowload\ai\deer-flow\src\server\app.py) 文件，如果您想深入了解某个方法如 [chat_stream](file://D:\dowload\ai\deer-flow\src\server\app.py#L80-L111) 或 [_astream_workflow_generator](file://D:\dowload\ai\deer-flow\src\server\app.py#L262-L351) 的实现，只需将光标放在方法名上，然后使用 `Ctrl + B` 或 `Ctrl + 鼠标左键点击` 即可直接跳转到该方法的定义处。
