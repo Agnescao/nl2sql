@@ -19,6 +19,8 @@ This project is based on natural language processing technology that can underst
 ## Technical Architecture
 
 ![architecture.png](assets/architecture.png)
+https://github.com/Agnescao/nl2sql/blob/master/assets/architecture.png
+
 - Natural Language Processing Engine
 - Semantic Parsing Module
 - SQL Syntax Generator
