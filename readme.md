@@ -33,6 +33,11 @@ This project is based on natural language processing technology that can underst
 - **Deployment**: Docker is used for easy deployment, autoDL is used for model private deployment
 - **Testing**: Unit tests and integration tests are provided to ensure the correctness of the system
 
+## Technologies Used
+- MCP Server for tool use and db connection and db query management ,more detail see mcp server [docs/mcp_integrations.md](docs/mcp_integrations.md)
+- LLM for semantic parsing and sql syntax generation 
+- TOOL for database connection and query execution [bind_tool.md](sql_graph/bind_tool.md)
+- Async Task Scheduler for parallel execution [AsyncTaskScheduler.md](docs/AsyncTaskScheduler.md)
 ## Installation and Usage
 
 ### Requirements

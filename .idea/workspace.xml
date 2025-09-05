@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56fe6d9-a15a-4cb8-9d48-d8ebdf31d55b" name="更改" comment="change architecture">
+    <list default="true" id="e56fe6d9-a15a-4cb8-9d48-d8ebdf31d55b" name="更改" comment="add docs">
+      <change afterPath="$PROJECT_DIR$/llm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/provider/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/checkpoint.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/memory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutilAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mutilAgent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompatibleOpenAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm/provider/CompatibleOpenAI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/input.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_graph/asyncTask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/testouput.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/testouput.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/异步任务.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/asyncTaskImprovement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/异步任务调度场景应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AsyncTaskScheduler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/mcpserver.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mcp_integrations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/testinput.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/testinput.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcpserver/获取数据库数据.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/refactor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_graph/exception.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exception.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testouput.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/testouput.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vllm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vllm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/异步任务.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/异步任务.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/异步任务调度场景应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/异步任务调度场景应用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortkeyusedinPycharm" beforeDir="false" afterPath="$PROJECT_DIR$/FC/shortkeyusedinPycharm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/FC/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testModle.py" beforeDir="false" afterPath="$PROJECT_DIR$/FC/testModle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="imageadd" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,23 +67,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python._base_client.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.execute_graph.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.fc_demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.start_server.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.testModle.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.tools_node.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;docs&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/新建文件夹/PythonProject/mcp-text-to-sql/sql_graph&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python._base_client.executor": "Debug",
+    "Python.execute_graph.executor": "Debug",
+    "Python.fc_demo.executor": "Debug",
+    "Python.start_server.executor": "Debug",
+    "Python.testModle.executor": "Debug",
+    "Python.tools_node.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "makesummary",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/新建文件夹/PythonProject/mcp-text-to-sql/sql_graph",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\sql_graph" />
@@ -84,6 +91,9 @@
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\FC" />
+      <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\sql_graph" />
+      <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\llm\provider" />
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\docs" />
     </key>
   </component>
@@ -138,6 +148,7 @@
         <item itemvalue="Python.execute_graph" />
         <item itemvalue="Python.start_server" />
         <item itemvalue="Python.execute_graph" />
+        <item itemvalue="Python.start_server" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756973361409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add docs">
+      <option name="closed" value="true" />
+      <created>1757037869635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757037869635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +240,8 @@
     <MESSAGE value="remove secret" />
     <MESSAGE value="add read me" />
     <MESSAGE value="change architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="change architecture" />
+    <MESSAGE value="add docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
