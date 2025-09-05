@@ -36,7 +36,7 @@ class CompatibleOpenAI:
 
 
 # 使用方式与OpenAI SDK类似
-client = CompatibleOpenAI(api_key="sk-e1fceffb22bb4cceb226a760ee653294")
+client = CompatibleOpenAI(api_key="xxxxx")
 
 try:
     completion = client.chat_completions.create(
