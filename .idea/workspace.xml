@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56fe6d9-a15a-4cb8-9d48-d8ebdf31d55b" name="更改" comment="add read me">
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
+    <list default="true" id="e56fe6d9-a15a-4cb8-9d48-d8ebdf31d55b" name="更改" comment="change architecture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/checkpoint.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/memory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutilAgent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mutilAgent.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/refactor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_graph/exception.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exception.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testouput.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/testouput.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vllm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vllm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/异步任务.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/异步任务.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/异步任务调度场景应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/异步任务调度场景应用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,23 +32,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="change-data" />
+        <entry key="$PROJECT_DIR$" value="imageadd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Agnescao"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Agnescao&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Agnescao/nl2sql.git",
-    "accountId": "31a53713-d9c9-4868-a12b-3105a31d8941"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Agnescao/nl2sql.git&quot;,
+    &quot;accountId&quot;: &quot;31a53713-d9c9-4868-a12b-3105a31d8941&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/logging/__init__.py" root0="SKIP_INSPECTION" />
   </component>
@@ -52,28 +60,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python._base_client.executor": "Debug",
-    "Python.execute_graph.executor": "Debug",
-    "Python.fc_demo.executor": "Debug",
-    "Python.start_server.executor": "Debug",
-    "Python.testModle.executor": "Debug",
-    "Python.tools_node.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "checkpoint",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/新建文件夹/PythonProject/mcp-text-to-sql/sql_graph",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._base_client.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.execute_graph.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.fc_demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.start_server.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.testModle.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.tools_node.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docs&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/新建文件夹/PythonProject/mcp-text-to-sql/sql_graph&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\sql_graph" />
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\mcpserver" />
       <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\新建文件夹\PythonProject\mcp-text-to-sql\docs" />
     </key>
   </component>
   <component name="RunManager" selected="Python.execute_graph">
@@ -177,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756966915957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change architecture">
+      <option name="closed" value="true" />
+      <created>1756973361409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756973361409</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +220,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="remove secret" />
     <MESSAGE value="add read me" />
-    <option name="LAST_COMMIT_MESSAGE" value="add read me" />
+    <MESSAGE value="change architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="change architecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

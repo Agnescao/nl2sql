@@ -9,8 +9,8 @@ This project is based on natural language processing technology that can underst
 
 ## Features
 
-- 🗣️ **Natural Language Input**: Supports natural language queries in Chinese
-- 🔄 **Intelligent Conversion**: Automatically converts natural language to standard SQL statements
+- 🗣️ **Natural Language Input**: Supports natural language queries in various languages
+- 🔄 **Intelligent Conversion**: Automatically converts natural language to standard SQL statements based on context
 - 📊 **Multi-database Support**: Compatible with mainstream database systems
 - 🛠️ **Easy Integration**: Provides API interfaces for easy integration into existing systems
 - 🎯 **High Accuracy**: Based on deep learning models to provide accurate query conversion
@@ -21,6 +21,17 @@ This project is based on natural language processing technology that can underst
 - Semantic Parsing Module
 - SQL Syntax Generator
 - Database Adapter
+
+
+## Technical Details
+- **Programming Language**: Python
+- **Database Adapter**: Supports MySQL, PostgreSQL, Oracle, SQL Server, and more
+- **Semantic Parsing**: Based on deep learning models to understand natural language queries and generate semantic representations
+- **SQL Syntax Generator**: Based on deep learning models to generate SQL syntax based on semantic representations
+- **API Interface**: Provides RESTful API for easy integration into existing systems
+- **User Interface**: web ui for testing and demonstration
+- **Deployment**: Docker is used for easy deployment, autoDL is used for model private deployment
+- **Testing**: Unit tests and integration tests are provided to ensure the correctness of the system
 
 ## Installation and Usage
 
